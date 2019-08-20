@@ -1,5 +1,50 @@
 # Fall2019CourseProjectTDA
-The RAIK383H course project for TD Ameritrade during Spring semester 2019.
+The RAIK383H course project for TD Ameritrade during Fall semester 2019.
+
+# GitHub Student
+GitHub offers unlimited private repositories to students. Your code is required to be in a private repository to adhere to UNL's academic integrity policy.
+
+A .edu email address is required to apply to GitHub Student. Navigate to [settings](https://github.com/settings/emails) and add your huskers.unl.edu address to your list of emails.
+
+Navigate to [GitHub Student](https://education.github.com/pack), log in with your GitHub account, and click "Get your Pack". Follow the instructions, verifying your identiy as necessary. It may take multiple days for GitHub to approve your request, so apply early.
+* Note: due to a policy change by GitHub involving huskers.unl.edu addresses, your huskers.unl.edu email may not sufficiently verify your identity as a student. If you have an option to submit additional identification, you may submit a picture of your NCard or download an Unofficial Transcript from MyRed (which shows your in progress classes for this semester). GitHub support said that an NCard may not be sufficient, but upperclassmen have used it successfully.
+
+# Cloning the Repo
+Only 1 person needs to clone the repo per team. Once this section is done, the remaining members of the team will clone the new repository.
+
+## Option 1
+There is a "Use this template" button on the [starter code project repo](https://github.com/raik383h/Fall2019CourseProjectTDA). You can hit that button and follow the UI.
+
+## Option 2
+Open Git Bash and navigate to the directory in which you want to place the project.
+
+Run `git clone https://github.com/raik383h/Fall2019CourseProjectTDA.git`. This clones the project on to your repository.
+
+Run `cd Fall2019CourseProjectTDA`.
+
+Run `git remote remove origin`. This disconnects your copy of the repository from the original repository.
+
+Create a private repository under your account on GitHub. Name it `Fall2019CourseProjectTDA`.
+
+Run `git remote add origin https://github.com/<username>/Fall2019CourseProjectTDA.git`. This connects your local repository to your GitHub repository.
+
+Run `git push origin master`. This pushes the code from your local repository to your GitHub repository. The code should now appear on GitHub.
+
+
+## Adding Team Members
+
+You have now successfully cloned the repo. Now you need to add your team members as collaborators so they can contribute code.
+
+Go to Settings > Collaborators in your GitHub repo (https://github.com/<username>/Fall2019CourseProjectTDA/settings/collaboration).
+
+Add each of your teammates' GitHub usernames and click "Add Collaborator". This sends an invitation to each team member. Team members will need to accept their invitations. If an invitation does not go through, you may need to cancel it and resend it.
+
+Once your team members have been added as collaborators, they can clone the repo to their machines by running `git clone https://github.com/<username>/Fall2019CourseProjectTDA.git` (note that <username> is the username of the person who created the private repo).
+
+You should also add MatthewMeacham, lbogus, and raik383h as collaborators so we can see your repositories and evaluate your code.
+
+You are now ready for development.
+
 
 # Running the C# API
 Open the `TDAProject.sln` solution file in [Visual Studio](https://visualstudio.microsoft.com/downloads/). Right-click the `Web` project, and hit "Set as StartUp Project". Then hit the green run button in the toolbar. 
@@ -22,42 +67,3 @@ Add npm global modules to your path. This step may not be necessary if you've al
 Run the UI project by typing `ng serve`. This command launches the server, watches your files, and rebuilds the app as you make changes to those files. Navigate to `http://localhost:4200/` to see your running front-end.
 
 For editing the Angular front-end, we recommend using [Visual Studio Code](https://code.visualstudio.com/download).
-
-# GitHub Student
-GitHub offers unlimited private repositories to students. Your code is required to be in a private repository to adhere to UNL's academic integrity policy.
-
-A .edu email address is required to apply to GitHub Student. Navigate to [settings](https://github.com/settings/emails) and add your huskers.unl.edu address to your list of emails.
-
-Navigate to [GitHub Student](https://education.github.com/pack), log in with your GitHub account, and click "Get your Pack". Follow the instructions, verifying your identiy as necessary. It may take multiple days for GitHub to approve your request, so apply early.
-* Note: due to a policy change by GitHub involving huskers.unl.edu addresses, your huskers.unl.edu email may not sufficiently verify your identity as a student. If you have an option to submit additional identification, you may submit a picture of your NCard or download an Unofficial Transcript from MyRed (which shows your in progress classes for this semester). GitHub support said that an NCard may not be sufficient, but upperclassmen have used it successfully.
-
-# Cloning the Repo
-Only 1 person needs to clone the repo per team. Once this section is done, the remaining members of the team will clone the new repository.
-
-Open Git Bash and navigate to the directory in which you want to place the project.
-
-Run `git clone https://github.com/raik383h/Fall2019CourseProjectTDA.git`. This clones the project on to your repository.
-
-Run `cd Fall2019CourseProjectTDA`.
-
-Run `git remote remove origin`. This disconnects your copy of the repository from the original repository.
-
-Create a private repository under your account on GitHub. Name it `Fall2019CourseProjectTDA`.
-
-Run `git remote add origin https://github.com/<username>/Fall2019CourseProjectTDA.git`. This connects your local repository to your GitHub repository.
-
-Run `git push origin master`. This pushes the code from your local repository to your GitHub repository. The code should now appear on GitHub.
-
-## Adding Team Members
-
-You have now successfully cloned the repo. Now you need to add your team members as collaborators so they can contribute code.
-
-Go to Settings > Collaborators in your GitHub repo (https://github.com/<username>/Fall2019CourseProjectTDA/settings/collaboration).
-
-Add each of your teammates' GitHub usernames and click "Add Collaborator". This sends an invitation to each team member. Team members will need to accept their invitations. If an invitation does not go through, you may need to cancel it and resend it.
-
-Once your team members have been added as collaborators, they can clone the repo to their machines by running `git clone https://github.com/<username>/Fall2019CourseProjectTDA.git` (note that <username> is the username of the person who created the private repo).
-
-You should also add MatthewMeacham, lbogus, and raik383h as collaborators so we can see your repositories and evaluate your code.
-
-You are now ready for development.
